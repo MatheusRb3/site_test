@@ -193,16 +193,17 @@ body {
 
 .slider-container {
   width: 100%;
-  width: 500px;
-            margin: auto;
-            padding: 20px;
+  height: auto ;
+  overflow: hidden;
+  border-radius: 15px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.1);
 }
 
 .slider {
   display: flex;
-  width: 40%;
-  margin: auto;
-  padding: 20px;
+  width: 100%;
+            margin: auto;
+            padding: 20px;
 }
 
 
